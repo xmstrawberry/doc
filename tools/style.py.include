@@ -1,7 +1,0 @@
-^\./common/
-^\./core/src/
-^\./crypto/
-^\./legacy/
-^\./storage/
-^\./tests/
-^\./ci/
