@@ -1,11 +1,11 @@
 # Summary
 
-- [Introduction](index.md)
+- [app特性](guide.md)
 - [支持的app](app.md)
 - [pcb原理](pcb/index.md)
 - [编译过程](guides/trezor编译过程.md)
 - [签名固件生成及下载方法](guides/trezor_one签名固件生成及下载方法.md)
-- [Python](python/index.md)
+- [Introduction](index.md)
 - [Legacy](legacy/index.md)
 - [Python](python/index.md)
   - [trezorlib](python/trezorlib.md)
