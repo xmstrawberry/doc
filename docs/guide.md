@@ -18,9 +18,7 @@
 - cpfp是收币方想要对交易进行加速
     <br/>![send](./pictures/cpfp.png)</br>
 
-## <br/>**手机丢失怎么办?**</br>
-- 因为异常原因用户的钱包信息丢失，此时，用户可以通过同步钱包的方式将之前同一BixinKEY创建的钱包同步下来，同步流程如下：
-    <br/>![send](./pictures/sync-wallet.png)</br>
+
 ## <br/>**共管钱包如何使用?**</br>
 - 获取共管人的扩展公钥
   
@@ -35,11 +33,18 @@
     - A和B都可以进行广播交易，当交易广播以后，两个共管人的钱包里对应的当前交易状态都会显示为“待确认”
     <br/>![send](./pictures/sync-tx.png)</br>
 
-## <br/>如何才能使自己的交易过程更安全？</br>
+## <br/>**同步服务器**</br>
+
 ### <br/>**使用自己的同步服务器进行交易的同步**</br>
 - 目前我们支持将交易同步到服务器上，这样不仅能避免因为二维码过大不能正确解析的问题，也能更方便共管人对交易进行维护和同步分发处理
-- 如果用户对交易的安全性有很高的要求，可以设置自己的同步服务器，设置流程如下：
+- 用户也可以设置自己的同步服务器，同步服务器的搭建见https://github.com/BixinKey/electrum-sync-server 
+- 在APP端设置同步服务器流程如下：
     <br/>![send](./pictures/set-sync-server.png)</br>
+
+## <br/>同步钱包信息</br>
+- 如果使用同步服务器，可以把钱包信息加密同步到服务器，这样用户可以通过同步钱包的方式将之前同一BixinKEY创建的钱包同步下来，同步流程如下：
+    <br/>![send](./pictures/sync-wallet.png)</br>
+
 
 ### <br/>**配置自己的electrum服务器节点**</br>
 ####   &nbsp;&nbsp;目前有三种方式自定义electrum节点
@@ -57,3 +62,4 @@
 ####  &nbsp;&nbsp;<br/>设置electrum服务器节点</br>
 - 如果配置了自定义的electrum服务器，就可以根据下边的流程在BixinKEY APP中进行连接
     <br/>![send](./pictures/set-electrum-server.png)</br>
+
